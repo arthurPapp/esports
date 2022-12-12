@@ -1,38 +1,96 @@
 export const GAMES = [
   {
     id: '1',
-    name: 'League of Legends',
-    ads: '4',
-    cover: require('../assets/games/game-1.png')
+    title: 'League of Legends',
+    _count:{ads: 3},
+    bannerUrl:"https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
   },
   {
     id: '2',
-    name: 'Dota 2',
-    ads: '3',
-    cover: require('../assets/games/game-2.png')
+    title: 'Dota 2',
+    _count:{ads: 3},
+    bannerUrl: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
   },
   {
     id: '3',
-    name: 'CS-GO',
-    ads: '2',
-    cover: require('../assets/games/game-3.png')
+    title: 'CS-GO',
+    _count:{ads: 3},
+    bannerUrl: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
   },
   {
     id: '4',
-    name: 'Apex',
-    ads: '3',
-    cover: require('../assets/games/game-4.png')
+    title: 'Apex',
+    _count:{ads: 3},
+    bannerUrl: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
   },
   {
     id: '5',
-    name: 'Fortnite',
-    ads: '5',
-    cover: require('../assets/games/game-5.png')
+    title: 'Fortnite',
+    _count:{ads: 3},
+    bannerUrl: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
   },
   {
     id: '6',
-    name: 'World of Warcraft',
-    ads: '2',
-    cover: require('../assets/games/game-6.png')
+    title: 'World of Warcraft',
+    _count:{ads: 0},
+    bannerUrl: "https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
   },
+];
+
+
+export const ADS = [
+  
+  {
+    id: '1',
+    name: 'Alemaop12',
+    yearsPlaying: 5,
+    weekDays: [
+      "0",
+      "5",
+      "6"
+    ],
+    hourStart: "18:30",
+    hourEnd: "22:00",
+    useVoiceChannel: true
+  },
+  {
+    id: '1',
+    name: 'Alemaop12',
+    yearsPlaying: 5,
+    weekDays: [
+      "0",
+      "5",
+      "6"
+    ],
+    hourStart: "18:30",
+    hourEnd: "22:00",
+    useVoiceChannel: true
+  },
+  {
+    id: '2',
+    name: 'Alemaop12',
+    yearsPlaying: 5,
+    weekDays: [
+      "0",
+      "5",
+      "6"
+    ],
+    hourStart: "18:30",
+    hourEnd: "22:00",
+    useVoiceChannel: true
+  },
+  {
+    id: '6',
+    name: 'Alemaop12',
+    yearsPlaying: 5,
+    weekDays: [
+      "0",
+      "5",
+      "6"
+    ],
+    hourStart: "18:30",
+    hourEnd: "22:00",
+    useVoiceChannel: true
+  }
+
 ];
